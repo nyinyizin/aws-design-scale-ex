@@ -22,16 +22,16 @@ provider "aws" {
   region  = var.region
 }
 
-# resource "aws_instance" "Udacity_T2" {
-#   //ami           = "ami-f95875ab"
-#   ami           = "ami-0fed77069cd5a6d6c"
-#   instance_type = "t2.micro"
-#   count         = "4"
+resource "aws_instance" "Udacity_T2" {
+  //ami           = "ami-f95875ab"
+  ami           = "ami-0fed77069cd5a6d6c"
+  instance_type = "t2.micro"
+  count         = "4"
 
-#   tags = {
-#     Name = var.instance_name
-#   }
-# }
+  tags = {
+    Name = var.instance_name
+  }
+}
 
 # resource "aws_instance" "Udacity_M4" {
 #   //ami           = "ami-f95875ab"
