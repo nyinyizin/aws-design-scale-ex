@@ -9,13 +9,17 @@ My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,73,876.0
 My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,0,0.00,USD,"Number of EC2 instances (4), Number of EIPs per instance (1)"
 My Estimate,US East (N. Virginia),,Amazon ElastiCache,0,2657.2,31886.40,USD,Nodes ( 1 instances of type Memcached  Memory optimized  cache r4.8xlarge  OnDemand )
 My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,1509.7595000000000,18117.11,USD,"Number of Metrics (includes detailed and custom metrics) (5000), Standard Logs: Data Ingested (1 GB), Logs Delivered to S3: Data Ingested (1 GB), Expected Logs Data scanned (1 GB), Number of Dashboards (1), Number of Standard Resolution Alarm Metrics (10), Number of High Resolution Alarm Metrics (10), Number of composite alarms (10)"
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,157.86,1894.32,USD,Number of NAT Gateways (2)
 ,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,
 Acknowledgement,,,,,,,,
 "* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
 ,,,,,,,,
+,,,,,,,,
+,,,,,,,,
 Add 4 more EC2 instances,,,,,,,,
-Bring back the DB size to 8x,,,,,,,,
+Bring back the DB size to 8x with 100% utilisation per month,,,,,,,,
 Add ElasticCache for performance improvement,,,,,,,,
 "Add CloudWatch for monitoring, log and alarms",,,,,,,,
+Increase NAT data processing per hour,,,,,,,,
